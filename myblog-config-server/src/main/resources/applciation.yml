@@ -1,0 +1,35 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: subversion
+#  cloud:
+#    config:
+#      server:
+#        svn:
+#          uri: https://DESKTOP-P4TIRFS/svn/springcloud/
+#          username: starrk
+#          password: starrk
+#          defaultLabel: config
+#          basedir: /tmp/data
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/GroupDavyStarrk/myblogs.git
+          searchPaths:
+          username:zhudeyu
+          password:zhudelong19880214
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8090/eureka/
+
+spring:
+  rabbitmq:
+    host: localhost
+    port:15672
+    username: guest
+    password:guest
