@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/myblog-config-client/myblog-config-client.iml" filepath="$PROJECT_DIR$/myblog-config-client/myblog-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myblog-config-server/myblog-config-server.iml" filepath="$PROJECT_DIR$/myblog-config-server/myblog-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myblog-eureka/myblog-eureka.iml" filepath="$PROJECT_DIR$/myblog-eureka/myblog-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myblog-manage/myblog-manage.iml" filepath="$PROJECT_DIR$/myblog-manage/myblog-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myblog-web/myblog-web.iml" filepath="$PROJECT_DIR$/myblog-web/myblog-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myblogs.iml" filepath="$PROJECT_DIR$/myblogs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myblogs-common/myblogs-common.iml" filepath="$PROJECT_DIR$/myblogs-common/myblogs-common.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="myblog-config-server:war">
+    <output-path>$PROJECT_DIR$/myblog-config-server/target</output-path>
+    <root id="archive" name="myblog-config-server.war">
+      <element id="artifact" artifact-name="myblog-config-server:war exploded" />
+    </root>
+  </artifact>
+</component>
