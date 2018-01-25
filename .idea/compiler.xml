@@ -2,24 +2,33 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="myblog-api" />
         <module name="myblog-config-client" />
         <module name="myblog-config-server" />
         <module name="myblog-eureka" />
+        <module name="myblog-feign-user-service" />
         <module name="myblog-manage" />
+        <module name="myblog-user-service" />
         <module name="myblog-web" />
         <module name="myblogs-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="myblog-api" target="1.8" />
       <module name="myblog-config-client" target="1.8" />
       <module name="myblog-config-server" target="1.8" />
       <module name="myblog-eureka" target="1.8" />
+      <module name="myblog-feign-user-service" target="1.8" />
       <module name="myblog-manage" target="1.8" />
+      <module name="myblog-user-consumer" target="1.8" />
+      <module name="myblog-user-service" target="1.8" />
       <module name="myblog-web" target="1.8" />
+      <module name="myblog-zuul" target="1.8" />
       <module name="myblogs" target="1.8" />
       <module name="myblogs-common" target="1.8" />
     </bytecodeTargetLevel>

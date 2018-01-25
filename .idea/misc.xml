@@ -4,8 +4,12 @@
     <file type="web" url="file://$PROJECT_DIR$/myblog-config-client" />
     <file type="web" url="file://$PROJECT_DIR$/myblog-config-server" />
     <file type="web" url="file://$PROJECT_DIR$/myblog-eureka" />
+    <file type="web" url="file://$PROJECT_DIR$/myblog-feign-user-service" />
     <file type="web" url="file://$PROJECT_DIR$/myblog-manage" />
+    <file type="web" url="file://$PROJECT_DIR$/myblog-user-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/myblog-user-service" />
     <file type="web" url="file://$PROJECT_DIR$/myblog-web" />
+    <file type="web" url="file://$PROJECT_DIR$/myblog-zuul" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

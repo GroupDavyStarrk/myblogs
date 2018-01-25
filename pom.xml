@@ -19,6 +19,12 @@
       <module>myblog-config-client</module>
       <module>myblog-manage</module>
       <module>myblog-web</module>
+      <module>myblog-zuul</module>
+      <module>myblog-api</module>
+      <module>myblog-api</module>
+    <module>myblog-user-service</module>
+      <module>myblog-user-service</module>
+      <module>myblog-feign-user-service</module>
   </modules>
 
 
