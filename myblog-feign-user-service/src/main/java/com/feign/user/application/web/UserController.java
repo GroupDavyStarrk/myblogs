@@ -1,7 +1,6 @@
 package com.feign.user.application.web;
 
 import com.feign.user.application.service.UserService;
-import com.feign.user.application.service.Useraaa;
 import com.starrk.dev.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,15 +13,19 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @Autowired
     private UserService userService;
-    @Autowired
-    private Useraaa useraaa;
+    @RequestMapping(value = "/hello",method = RequestMethod.GET)
+    public String hello(){
+        String a = userService.hello();
+        System.out.println("sss"+a);
+        return a;
+    }
 
     @RequestMapping(value = "/byid/{id}",method = RequestMethod.GET)
-    public User findUserById(@PathVariable Integer id){
+    public User findUserByid(@PathVariable(name = "id") Integer id){
        return userService.findUserById(id);
     }
     @RequestMapping(value = "/byusername/{username}",method = RequestMethod.GET)
-    public User findUserByUsername(@PathVariable String username){
+    public User findUserByUsername(@PathVariable(name = "username") String username){
         return userService.findUserByUsername(username);
     }
     @RequestMapping(value = "/byuser/{username}/{password}",method = RequestMethod.GET)

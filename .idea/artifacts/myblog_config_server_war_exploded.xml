@@ -159,6 +159,7 @@
           <element id="library" level="project" name="Maven: com.jcraft:jsch:0.1.50" />
           <element id="library" level="project" name="Maven: com.googlecode.javaewah:JavaEWAH:0.7.9" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.17" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.18" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-eureka-server:1.2.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.2.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-freemarker:1.4.7.RELEASE" />

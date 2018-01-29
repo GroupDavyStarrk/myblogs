@@ -10,6 +10,7 @@
           <element id="archive" name="myblogs-common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="myblogs-common" />
           </element>
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.18" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-eureka-server:1.2.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter:1.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:1.4.7.RELEASE" />
