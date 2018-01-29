@@ -2,68 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934ac595-eada-43f4-bb49-95cb6218c282" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_42.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_4_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_4_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_10_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog-user-service/src/main/java/com/user/service/application/userdao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog-zuul/src/main/java/com/myblog/zuul/GatewayApplication.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-feign-user-service/src/main/java/com/feign/user/application/service/Useraaa.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-feign-user-service/src/main/java/com/feign/user/application/service/Userbbb.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myblogs-common/src/test/java/com/starrk/dev/AppTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_config_client_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_config_client_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_config_server_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_config_server_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_eureka_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_eureka_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_feign_user_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_feign_user_service_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_manage_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_manage_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_user_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_user_service_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-api/myblog-api.iml" afterPath="$PROJECT_DIR$/myblog-api/myblog-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-api/pom.xml" afterPath="$PROJECT_DIR$/myblog-api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-api/src/main/java/com/starrk/dev/interfaces/UserInterface.java" afterPath="$PROJECT_DIR$/myblog-api/src/main/java/com/starrk/dev/interfaces/UserInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-api/src/main/java/com/starrk/dev/pojo/Basic.java" afterPath="$PROJECT_DIR$/myblog-api/src/main/java/com/starrk/dev/pojo/Basic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-api/src/main/java/com/starrk/dev/pojo/User.java" afterPath="$PROJECT_DIR$/myblog-api/src/main/java/com/starrk/dev/pojo/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-config-client/myblog-config-client.iml" afterPath="$PROJECT_DIR$/myblog-config-client/myblog-config-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-config-server/myblog-config-server.iml" afterPath="$PROJECT_DIR$/myblog-config-server/myblog-config-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-eureka/myblog-eureka.iml" afterPath="$PROJECT_DIR$/myblog-eureka/myblog-eureka.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-eureka/pom.xml" afterPath="$PROJECT_DIR$/myblog-eureka/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-feign-user-service/myblog-feign-user-service.iml" afterPath="$PROJECT_DIR$/myblog-feign-user-service/myblog-feign-user-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-feign-user-service/pom.xml" afterPath="$PROJECT_DIR$/myblog-feign-user-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-feign-user-service/src/main/java/com/feign/user/application/FeignUserServiceApplication.java" afterPath="$PROJECT_DIR$/myblog-feign-user-service/src/main/java/com/feign/user/application/FeignUserServiceApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-feign-user-service/src/main/java/com/feign/user/application/web/UserController.java" afterPath="$PROJECT_DIR$/myblog-feign-user-service/src/main/java/com/feign/user/application/web/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-feign-user-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/myblog-feign-user-service/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-manage/myblog-manage.iml" afterPath="$PROJECT_DIR$/myblog-manage/myblog-manage.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-user-service/myblog-user-service.iml" afterPath="$PROJECT_DIR$/myblog-user-service/myblog-user-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-user-service/pom.xml" afterPath="$PROJECT_DIR$/myblog-user-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-user-service/src/main/java/com/user/service/application/userservice/UserServiceImpl.java" afterPath="$PROJECT_DIR$/myblog-user-service/src/main/java/com/user/service/application/userservice/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-user-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/myblog-user-service/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-web/myblog-web.iml" afterPath="$PROJECT_DIR$/myblog-web/myblog-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-zuul/myblog-zuul.iml" afterPath="$PROJECT_DIR$/myblog-zuul/myblog-zuul.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-zuul/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/myblog-zuul/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblogs-common/myblogs-common.iml" afterPath="$PROJECT_DIR$/myblogs-common/myblogs-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblogs.iml" afterPath="$PROJECT_DIR$/myblogs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -521,7 +460,7 @@
       <workItem from="1516860182989" duration="8049000" />
       <workItem from="1516869912041" duration="120000" />
       <workItem from="1516930838312" duration="1285000" />
-      <workItem from="1517190291517" duration="15796000" />
+      <workItem from="1517190291517" duration="15866000" />
     </task>
     <task id="LOCAL-00001" summary="tijiao">
       <created>1516782388711</created>
@@ -544,11 +483,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516865906344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1/25">
+      <created>1517210909598</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517210909598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40588000" />
+    <option name="totallyTimeSpent" value="40658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -571,10 +517,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49588138" sideWeight="0.49546143" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
