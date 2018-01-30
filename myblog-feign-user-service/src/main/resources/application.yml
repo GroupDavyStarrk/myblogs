@@ -8,18 +8,27 @@ spring:
       username: root
       password: root
       driver-class-name: com.mysql.jdbc.Driver
-#feign:
-#  hystrix:
-#    enabled: true
+feign:
+  hystrix:
+    enabled: true
 hystrix:
   command:
-    default:
+    UserService#test():
       execution:
         isolation:
           thread:
             timeoutInMilliseconds: 500
       circuitBreaker:
         requestVolumeThreshold: 3
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 500
+#      circuitBreaker:
+#        requestVolumeThreshold: 3
 eureka:
   client:
     service-url:

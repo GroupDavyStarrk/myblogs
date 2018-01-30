@@ -3,15 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myblog-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/myblog-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myblog-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myblog-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myblog-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myblog-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myblog-feign-user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myblog-manage" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/myblog-user-consumer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/myblog-user-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/myblog-user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myblog-user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myblog-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myblog-zuul" charset="UTF-8" />

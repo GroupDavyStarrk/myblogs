@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 //@RequestMapping("/recall")
 public interface UserInterface {
+    @RequestMapping(value = "/recall/test",method = RequestMethod.GET)
+    public String test()throws Exception;
     @RequestMapping(value = "/recall/hello",method = RequestMethod.GET)
     public String hello();
     @RequestMapping(value = "/recall/byid",method = RequestMethod.GET)

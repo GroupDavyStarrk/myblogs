@@ -1,6 +1,8 @@
 package com.feign.user.application.web;
 
 import com.feign.user.application.service.UserService;
+import com.netflix.hystrix.HystrixCircuitBreaker;
+import com.netflix.hystrix.HystrixCommandKey;
 import com.starrk.dev.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,7 +14,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user")
 public class UserController {
     @Autowired
+//    @SuppressWarnings("unchecked")
     private UserService userService;
+
+    @RequestMapping(value = "/test",method = RequestMethod.GET)
+    public String doTest() throws Exception{
+        String result = userService.test();
+        HystrixCircuitBreaker breaker = HystrixCircuitBreaker.Factory.
+                getInstance(HystrixCommandKey.Factory.asKey("UserService#test()"));
+        System.out.println("断路器状态: "+breaker.isOpen());
+        return result;
+    }
+
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public String hello(){
         String a = userService.hello();

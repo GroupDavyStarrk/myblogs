@@ -10,6 +10,7 @@
         <module name="myblog-api" />
         <module name="myblog-config-client" />
         <module name="myblog-config-server" />
+        <module name="myblog-dashboard" />
         <module name="myblog-eureka" />
         <module name="myblog-feign-user-service" />
         <module name="myblog-manage" />
@@ -22,6 +23,7 @@
       <module name="myblog-api" target="1.8" />
       <module name="myblog-config-client" target="1.8" />
       <module name="myblog-config-server" target="1.8" />
+      <module name="myblog-dashboard" target="1.8" />
       <module name="myblog-eureka" target="1.8" />
       <module name="myblog-feign-user-service" target="1.8" />
       <module name="myblog-manage" target="1.8" />

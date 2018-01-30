@@ -15,6 +15,12 @@ public class UserServiceImpl implements UserServices {
     private UserDao userDao;
 
     @Override
+    public String test() throws Exception{
+        Thread.sleep(1000);
+        return "abcd";
+    }
+
+    @Override
     public String hello() {
         return "123";
     }

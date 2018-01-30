@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/myblog-config-client" />
     <file type="web" url="file://$PROJECT_DIR$/myblog-config-server" />
+    <file type="web" url="file://$PROJECT_DIR$/myblog-dashboard" />
     <file type="web" url="file://$PROJECT_DIR$/myblog-eureka" />
     <file type="web" url="file://$PROJECT_DIR$/myblog-feign-user-service" />
     <file type="web" url="file://$PROJECT_DIR$/myblog-manage" />

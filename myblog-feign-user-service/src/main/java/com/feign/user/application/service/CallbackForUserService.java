@@ -11,6 +11,11 @@ import java.util.Date;
 @Component
 public class CallbackForUserService implements UserService {
     @Override
+    public String test() {
+        return "time out Callback";
+    }
+
+    @Override
     public String hello() {
         return "Callback hello";
     }
