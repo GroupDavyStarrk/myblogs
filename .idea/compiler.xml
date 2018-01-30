@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="myblog-api" />
-        <module name="myblog-config-client" />
         <module name="myblog-config-server" />
         <module name="myblog-dashboard" />
         <module name="myblog-eureka" />

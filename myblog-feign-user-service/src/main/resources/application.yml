@@ -4,7 +4,7 @@ spring:
   application:
     name: feign-user-service
   datasource:
-      url: jdbc:mysql://10.18.172.86:3306/myblog_user
+      url: jdbc:mysql://localhost:3306/myblog
       username: root
       password: root
       driver-class-name: com.mysql.jdbc.Driver
