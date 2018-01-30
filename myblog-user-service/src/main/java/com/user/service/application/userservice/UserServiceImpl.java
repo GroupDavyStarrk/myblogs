@@ -4,14 +4,12 @@ import com.starrk.dev.pojo.User;
 import com.user.service.application.userdao.UserDao;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Date;
 
 @RestController
 @MapperScan("com.user.service.application.userdao")
-public class UserServiceImpl implements UserService {
+public class UserServiceImpl implements UserServices {
 
     @Autowired
     private UserDao userDao;
@@ -24,13 +22,6 @@ public class UserServiceImpl implements UserService {
     @Override
     public User findUserById(Integer id) {
         return userDao.findUserById(id);
-//        User user = new User();
-//        user.setId(id);
-//        user.setPassword("AAAA");
-//        user.setUsername("bbbb");
-//        user.setCreateTime(new Date(System.currentTimeMillis()));
-//        user.setEditTime(new Date(System.currentTimeMillis()));
-//        return user;
     }
 
     @Override

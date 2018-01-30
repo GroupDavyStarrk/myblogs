@@ -1,9 +1,5 @@
 server:
   port: 9002
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8900/eureka/
 spring:
   application:
     name: feign-user-service
@@ -12,3 +8,19 @@ spring:
       username: root
       password: root
       driver-class-name: com.mysql.jdbc.Driver
+#feign:
+#  hystrix:
+#    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 500
+      circuitBreaker:
+        requestVolumeThreshold: 3
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8900/eureka/

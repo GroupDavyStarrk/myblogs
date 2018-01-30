@@ -19,7 +19,6 @@ public class UserController {
         System.out.println("sss"+a);
         return a;
     }
-
     @RequestMapping(value = "/byid/{id}",method = RequestMethod.GET)
     public User findUserByid(@PathVariable(name = "id") Integer id){
        return userService.findUserById(id);
