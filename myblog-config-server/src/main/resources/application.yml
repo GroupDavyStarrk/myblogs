@@ -8,10 +8,17 @@ spring:
       server:
         git:
           uri: https://github.com/Starrrrk/myblog-config.git
-          search-paths: gateway-config
+          search-paths: gateway-myblog
+#          search-paths: {application}
           username: ning15845920609@163.com
           password: ning1hong2bo3.
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:8900/eureka/
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: springcloud
+    password: springcloud
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8900/eureka/

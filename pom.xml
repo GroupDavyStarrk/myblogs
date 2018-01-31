@@ -16,7 +16,6 @@
     <module>myblogs-common</module>
       <module>myblog-eureka</module>
       <module>myblog-config-server</module>
-      <module>myblog-config-client</module>
       <module>myblog-manage</module>
       <module>myblog-web</module>
       <module>myblog-zuul</module>
@@ -39,12 +38,15 @@
     </properties>
 
   <dependencies>
-
-      <dependency>
-          <groupId>org.projectlombok</groupId>
-          <artifactId>lombok</artifactId>
-          <version> 1.16.18</version>
-      </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version> 1.16.18</version>
+    </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-eureka-server</artifactId>
