@@ -4,12 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/myblog-api/myblog-api.iml" filepath="$PROJECT_DIR$/myblog-api/myblog-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/myblog-config-server/myblog-config-server.iml" filepath="$PROJECT_DIR$/myblog-config-server/myblog-config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myblog-dashboard/myblog-dashboard.iml" filepath="$PROJECT_DIR$/myblog-dashboard/myblog-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/myblog-eureka/myblog-eureka.iml" filepath="$PROJECT_DIR$/myblog-eureka/myblog-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/myblog-feign-user-service/myblog-feign-user-service.iml" filepath="$PROJECT_DIR$/myblog-feign-user-service/myblog-feign-user-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myblog-manage/myblog-manage.iml" filepath="$PROJECT_DIR$/myblog-manage/myblog-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/myblog-user-service/myblog-user-service.iml" filepath="$PROJECT_DIR$/myblog-user-service/myblog-user-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myblog-web/myblog-web.iml" filepath="$PROJECT_DIR$/myblog-web/myblog-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/myblog-zuul/myblog-zuul.iml" filepath="$PROJECT_DIR$/myblog-zuul/myblog-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/myblogs.iml" filepath="$PROJECT_DIR$/myblogs.iml" />
       <module fileurl="file://$PROJECT_DIR$/myblogs-common/myblogs-common.iml" filepath="$PROJECT_DIR$/myblogs-common/myblogs-common.iml" />

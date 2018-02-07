@@ -16,15 +16,10 @@
     <module>myblogs-common</module>
       <module>myblog-eureka</module>
       <module>myblog-config-server</module>
-      <module>myblog-manage</module>
-      <module>myblog-web</module>
       <module>myblog-zuul</module>
       <module>myblog-api</module>
-      <module>myblog-api</module>
-    <module>myblog-user-service</module>
       <module>myblog-user-service</module>
       <module>myblog-feign-user-service</module>
-      <module>myblog-dashboard</module>
   </modules>
 
 
@@ -68,6 +63,10 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
       </plugin>
     </plugins>
   </build>

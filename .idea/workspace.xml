@@ -2,40 +2,435 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934ac595-eada-43f4-bb49-95cb6218c282" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_1_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_1_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog-zuul/src/main/java/com/myblog/zuul/filter/EncodeFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog-zuul/src/main/java/com/myblog/zuul/filter/XSSSecurityFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog-zuul/src/main/resources/application.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-user-service/src/main/java/com/user/service/UserServiceApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-user-service/src/main/java/com/user/service/serviceImpl/UserServiceImpl.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_config_server_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_config_server_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_feign_user_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_feign_user_service_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_manage_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_manage_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_user_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_user_service_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_web_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog-eureka/src/main/Resources/static/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog-feign-user-service/src/main/resources/static/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog-user-service/src/main/resources/static/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog-zuul/src/main/resources/static/favicon.ico" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_1_2_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_dashboard_1_2_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-dashboard/myblog-dashboard.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-dashboard/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-dashboard/src/main/java/com/myblog/dashboard/DashboardApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-dashboard/src/main/resources/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-dashboard/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-dashboard/src/main/webapp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/myblog-manage.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/alerts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/charts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/content-widgets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/file-manager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/generics.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/icons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/lightbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/media-player.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/file-manager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/fontawesome/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/fontawesome/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/fontawesome/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/fontawesome/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/icons/icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/icons/icon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/icons/icon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Light-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Light-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Light-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Light-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Semibold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Semibold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Semibold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/fonts/opan-sans/OpenSans-Semibold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/form-components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/form-elements.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/form-examples.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/form-validation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/images-icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/blue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/chrome.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/city.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/cloth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/greenish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/kiwi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/lights.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/night.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/ocean.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/sunny.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/sunset.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/tectile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/violate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/body/yellow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/browsers/chrome.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/browsers/firefox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/browsers/ie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/browsers/opera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/browsers/safari.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/carousel/c-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/carousel/c-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/carousel/c-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/color-picker/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/color-picker/hue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/color-picker/saturation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/cover-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/align.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/align@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/bold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/bold@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/code.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/code@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/font.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/font@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/full-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/full-screen@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/heading.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/heading@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/help@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/italic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/italic@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/line-height.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/line-height@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/link@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/orderlist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/orderlist@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/picture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/picture@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/table@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/text@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/underline.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/underline@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/unlist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/unlist@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/unstyle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/unstyle@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/video.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/editor/video@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/css.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/doc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/exe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/flash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/html.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/js.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/mp3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/perl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/php.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/ppt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/psd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/py.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/rar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/txt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/video.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/xls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/xml.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/icon/zip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/quicklook-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/resize-preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/filemanager/spinner-mini.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/gallery/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/gallery/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/gallery/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/gallery/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/gallery/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/gallery/thumbs/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/gallery/thumbs/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/gallery/thumbs/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/gallery/thumbs/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/gallery/thumbs/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/add@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/archive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/archive@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/back@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/calendar@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/chart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/chart@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/day.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/day@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/delete@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/file@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/folder-sm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/folder-sm@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/folder@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/form.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/form@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/forwad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/forwad@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/home@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/icon-view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/icon-view@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/list-view.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/list-view@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/menu@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/message.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/message@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/month.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/month@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/move.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/move@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/pages.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/pages@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/photos.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/photos@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/plus-sm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/plus-sm@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/refresh@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/search-sm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/search@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/sorting.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/sorting@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/spam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/spam@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/table.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/table@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/tile-actions.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/tile-actions@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/typography.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/typography@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/ui.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/ui@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/updates.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/updates@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/upload@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/week.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/week@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/widgets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/icon/widgets@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/images-doc/circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/images-doc/rounded.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/images-doc/shadowed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/images-doc/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/loadinfo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/media-player/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/media-player/bigplay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/media-player/bigplay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/media-player/controls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/media-player/controls.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/media-player/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/media-player/media-player-poster.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/profile-pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/profile-pics/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/profile-pics/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/profile-pics/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/profile-pics/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/profile-pics/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/profile-pics/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/projects/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/projects/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/projects/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/select-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/shortcuts/calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/shortcuts/connections.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/shortcuts/money.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/shortcuts/reports.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/shortcuts/stats.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/shortcuts/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-blue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-chrome.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-city.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-cloth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-greenish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-kiwi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-lights.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-night.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-ocean.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-sunny.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-sunset.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-tectile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-violate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/skin-yellow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/img/sort.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/autosize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/calendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/charts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/charts/jquery.flot.animator.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/charts/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/charts/jquery.flot.orderBar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/charts/jquery.flot.pie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/charts/jquery.flot.resize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/charts/jquery.flot.time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/chosen.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/colorpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/datetimepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/easypiechart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/editor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/editor2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/feeds.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/file-manager/elfinder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/fileupload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/icheck.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/input-mask.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/maps/jvectormap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/maps/usa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/maps/world.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/markdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/media-player.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/media/flashmediaelement.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/pirobox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/scroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/select.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/slider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/spinner.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/toggler.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/validation/validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/validation/validationEngine.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/js/weather.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/labels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/list-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/media/flashmediaelement.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/messages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/other-components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/profile-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/sa.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/background/typography.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-manage/src/main/webapp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/myblog-web.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/css/clean-blog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/css/clean-blog.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/img/about-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/img/contact-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/img/home-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/img/post-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/img/post-sample-image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/js/clean-blog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/js/clean-blog.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/js/contact_me.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/js/contact_me.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/js/jqBootstrapValidation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/js/jqBootstrapValidation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/mail/contact_me.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/scss/_bootstrap-overrides.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/scss/_contact.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/scss/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/scss/_global.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/scss/_masthead.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/scss/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/scss/_post.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/scss/clean-blog.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/js/bootstrap.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/js/bootstrap.bundle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/js/bootstrap.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/js/bootstrap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/bootstrap/js/bootstrap.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/css/font-awesome.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/jquery/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/jquery/jquery.slim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/jquery/jquery.slim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myblog-web/src/main/webapp/web/vendor/jquery/jquery.slim.min.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-api/myblog-api.iml" afterPath="$PROJECT_DIR$/myblog-api/myblog-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-config-server/myblog-config-server.iml" afterPath="$PROJECT_DIR$/myblog-config-server/myblog-config-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-config-server/pom.xml" afterPath="$PROJECT_DIR$/myblog-config-server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-config-server/src/main/java/com/config/server/ConfigServerApplication.java" afterPath="$PROJECT_DIR$/myblog-config-server/src/main/java/com/config/server/ConfigServerApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-config-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/myblog-config-server/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-dashboard/pom.xml" afterPath="$PROJECT_DIR$/myblog-dashboard/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-eureka/myblog-eureka.iml" afterPath="$PROJECT_DIR$/myblog-eureka/myblog-eureka.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-feign-user-service/myblog-feign-user-service.iml" afterPath="$PROJECT_DIR$/myblog-feign-user-service/myblog-feign-user-service.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-feign-user-service/pom.xml" afterPath="$PROJECT_DIR$/myblog-feign-user-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-feign-user-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/myblog-feign-user-service/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-manage/myblog-manage.iml" afterPath="$PROJECT_DIR$/myblog-manage/myblog-manage.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-user-service/myblog-user-service.iml" afterPath="$PROJECT_DIR$/myblog-user-service/myblog-user-service.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-user-service/pom.xml" afterPath="$PROJECT_DIR$/myblog-user-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-user-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/myblog-user-service/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-web/myblog-web.iml" afterPath="$PROJECT_DIR$/myblog-web/myblog-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-zuul/myblog-zuul.iml" afterPath="$PROJECT_DIR$/myblog-zuul/myblog-zuul.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-zuul/pom.xml" afterPath="$PROJECT_DIR$/myblog-zuul/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog-zuul/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/myblog-zuul/src/main/resources/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblogs-common/myblogs-common.iml" afterPath="$PROJECT_DIR$/myblogs-common/myblogs-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblogs.iml" afterPath="$PROJECT_DIR$/myblogs.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,21 +467,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DebugFilter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.7.RELEASE/spring-cloud-netflix-core-1.2.7.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/DebugFilter.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myblog-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="198">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServletDetectionFilter.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.7.RELEASE/spring-cloud-netflix-core-1.2.7.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/ServletDetectionFilter.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myblog-feign-user-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+            <state relative-caret-position="-930">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myblog-user-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -103,6 +518,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spring.mvc</find>
+    </findStrings>
     <dirStrings>
       <dir>C:\Soft\Idea17\WorkSpace\myblogs\myblog-user-consumer</dir>
     </dirStrings>
@@ -162,18 +580,18 @@
         <option value="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.4.7.RELEASE/spring-boot-1.4.7.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class" />
         <option value="$PROJECT_DIR$/myblog-config-server/src/main/java/com/config/server/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/myblog-zuul/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/myblog-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/myblog-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/myblog-zuul/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/myblog-config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/myblog-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/myblog-feign-user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/myblog-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/myblog-user-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/myblog-feign-user-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/myblog-zuul/src/main/java/com/myblog/zuul/filter/EncodeFilter.java" />
         <option value="$PROJECT_DIR$/myblog-zuul/src/main/java/com/myblog/zuul/filter/XSSSecurityFilter.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/myblog-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/myblog-feign-user-service/pom.xml" />
       </list>
     </option>
   </component>
@@ -197,15 +615,24 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myblogs" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myblogs" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
-    <option name="y" value="20" />
     <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -226,9 +653,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,93 +662,11 @@
               <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblogs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.2.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.2.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.2.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-netflix-core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.2.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.2.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.2.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.2.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.2.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-              <item name="pre" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.2.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,6 +684,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/blog-master/blog" />
+    <property name="SearchEverywhereHistoryKey" value="myblog-api&#9;FILE&#9;file://C:/Soft/Idea17/WorkSpace/myblogs/myblog-api/myblog-api.iml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -348,11 +693,11 @@
       <recent name="com.user.service.application.userdao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Soft\Idea17\WorkSpace\myblogs\myblog-zuul\src\main\resources\static" />
+      <recent name="C:\Soft\Idea17\WorkSpace\myblogs\myblog-feign-user-service\src\main\resources\static" />
+      <recent name="C:\Soft\Idea17\WorkSpace\myblogs\myblog-user-service\src\main\resources\static" />
+      <recent name="C:\Soft\Idea17\WorkSpace\myblogs\myblog-eureka\src\main\Resources\static" />
       <recent name="F:\IDEA17\IDEAWorkSpace\myblogs\myblogs\myblog-zuul\src\main\resources" />
-      <recent name="C:\Soft\Idea17\WorkSpace\myblogs\myblog-dashboard\src\main\resources" />
-      <recent name="C:\Soft\Idea17\WorkSpace\myblogs\myblog-feign-user-service\src\main\java\com\feign\user\application\service" />
-      <recent name="C:\Soft\Idea17\WorkSpace\myblogs\myblog-feign-user-service\src\main\resources" />
-      <recent name="C:\Soft\Idea17\WorkSpace\myblogs\myblog-user-service\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,7 +712,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FeignUserServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.starrk.dev.Application" />
@@ -566,7 +911,10 @@
       <workItem from="1517293139290" duration="752000" />
       <workItem from="1517293938909" duration="8770000" />
       <workItem from="1517350169354" duration="2354000" />
-      <workItem from="1517384030089" duration="7301000" />
+      <workItem from="1517384030089" duration="11544000" />
+      <workItem from="1517794318003" duration="6904000" />
+      <workItem from="1517810348129" duration="692000" />
+      <workItem from="1517980622545" duration="2766000" />
     </task>
     <task id="LOCAL-00001" summary="tijiao">
       <created>1516782388711</created>
@@ -617,20 +965,75 @@
       <option name="project" value="LOCAL" />
       <updated>1517360916910</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1/25">
+      <created>1517396025628</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1517396025628</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96951000" />
+    <option name="totallyTimeSpent" value="111556000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5045386" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19062027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50576603" sideWeight="0.49546143" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29954615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5045386" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19062027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -643,23 +1046,19 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4579901" sideWeight="0.49546143" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.290469" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39561272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -707,359 +1106,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myblog-feign-user-service/src/main/java/com/feign/user/application/service/CallbackForUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-feign-user-service/src/main/java/com/feign/user/application/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-dashboard/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-feign-user-service/src/main/java/com/feign/user/application/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-zuul/src/main/resources/application.yml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.7.RELEASE/spring-cloud-netflix-core-1.2.7.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.4.7.RELEASE/spring-boot-1.4.7.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.4.7.RELEASE/spring-boot-1.4.7.RELEASE-sources.jar!/org/springframework/boot/context/properties/ConfigurationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.7.RELEASE/spring-cloud-netflix-core-1.2.7.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.java" />
-    <entry file="file://$PROJECT_DIR$/myblog-config-client/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/myblog-user-consumer/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/myblog-user-service/src/main/java/com/user/service/serviceImpl/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/myblog-user-service/src/main/java/com/user/service/UserServiceApplication.java" />
-    <entry file="file://$PROJECT_DIR$/myblog-dashboard/src/main/java/com/myblog/dashboard/DashboardApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#361#362#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-amqp/1.4.7.RELEASE/spring-boot-starter-amqp-1.4.7.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/1.2.2.RELEASE/spring-cloud-starter-bus-amqp-1.2.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-dashboard/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-manage/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-zuul/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-zuul/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-eureka/src/main/java/com/server/application/ServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-config-server/src/main/java/com/config/server/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-zuul/src/main/java/com/myblog/zuul/GatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-feign-user-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-feign-user-service/src/main/java/com/feign/user/application/FeignUserServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-feign-user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-user-service/src/main/java/com/user/service/application/userdao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-user-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-user-service/src/main/java/com/user/service/application/UserServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-zuul/src/main/java/com/myblog/zuul/filter/EncodeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="64" lean-forward="true" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#311#312#0" expanded="false" />
-            <element signature="e#357#358#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#432#433#0" expanded="false" />
-            <element signature="e#460#461#0" expanded="false" />
-            <element signature="e#501#502#0" expanded="false" />
-            <element signature="e#528#529#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-zuul/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog-zuul/src/main/java/com/myblog/zuul/filter/XSSSecurityFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/ZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="56" column="59" lean-forward="true" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.7.RELEASE/spring-cloud-netflix-core-1.2.7.RELEASE.jar!/org/springframework/cloud/netflix/zuul/util/RequestUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.7.RELEASE/spring-cloud-netflix-core-1.2.7.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/post/SendErrorFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.7.RELEASE/spring-cloud-netflix-core-1.2.7.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/DebugFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="47" column="52" lean-forward="false" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.7.RELEASE/spring-cloud-netflix-core-1.2.7.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/util/RequestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.7.RELEASE/spring-cloud-netflix-core-1.2.7.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/ZuulConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1183">
           <caret line="132" column="11" lean-forward="false" selection-start-line="132" selection-start-column="11" selection-end-line="132" selection-end-column="11" />
-          <folding>
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4978#4979#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1067,7 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,14 +1131,347 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-225">
           <caret line="123" column="50" lean-forward="false" selection-start-line="123" selection-start-column="50" selection-end-line="123" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.7.RELEASE/spring-cloud-netflix-core-1.2.7.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/ServletDetectionFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+        <state relative-caret-position="132">
+          <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.7.RELEASE/spring-cloud-netflix-core-1.2.7.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/DebugFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.jar!/org/springframework/context/annotation/FilterType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.4.7.RELEASE/spring-boot-1.4.7.RELEASE-sources.jar!/org/springframework/boot/context/TypeExcludeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE-sources.jar!/org/springframework/context/annotation/FilterType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="60" column="4" lean-forward="false" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog-feign-user-service/src/main/java/com/feign/user/application/FeignUserServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.4.7.RELEASE/spring-boot-1.4.7.RELEASE-sources.jar!/org/springframework/boot/SpringBootConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.1.9.RELEASE/spring-cloud-commons-1.1.9.RELEASE-sources.jar!/org/springframework/cloud/client/SpringCloudApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/AbstractErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3635">
+          <caret line="156" column="39" lean-forward="false" selection-start-line="156" selection-start-column="39" selection-end-line="156" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnWebApplicationCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.9.RELEASE/spring-core-4.3.9.RELEASE.jar!/org/springframework/core/Ordered.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.9.RELEASE/spring-core-4.3.9.RELEASE-sources.jar!/org/springframework/core/Ordered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="45" column="56" lean-forward="true" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/SearchStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigureAfter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/DispatcherServletAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="66" column="50" lean-forward="true" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/EmbeddedServletContainerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.4.7.RELEASE/spring-boot-1.4.7.RELEASE-sources.jar!/org/springframework/boot/web/client/RestTemplateBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2733">
+          <caret line="124" column="64" lean-forward="true" selection-start-line="124" selection-start-column="64" selection-end-line="124" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/WebClientAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/thymeleaf/ThymeleafProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/thymeleaf/ThymeleafAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/ContentNegotiationConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="97" column="15" lean-forward="true" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="174" column="40" lean-forward="true" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE.jar!/META-INF/additional-spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1100">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="550" column="67" lean-forward="true" selection-start-line="550" selection-start-column="67" selection-end-line="550" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot-autoconfigure/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot-autoconfigure/pom.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/1.4.7.RELEASE/spring-boot-starter-1.4.7.RELEASE.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/1.4.7.RELEASE/spring-boot-starter-1.4.7.RELEASE.jar!/META-INF/spring.provides">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/1.4.7.RELEASE/spring-boot-actuator-1.4.7.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="59" lean-forward="true" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.4.7.RELEASE/spring-boot-1.4.7.RELEASE-sources.jar!/org/springframework/boot/context/properties/ConfigurationProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog-eureka/src/main/Resources/static/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog-eureka/src/main/java/com/server/application/ServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/WebMvcProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="197" column="65" lean-forward="false" selection-start-line="197" selection-start-column="65" selection-end-line="197" selection-end-column="65" />
+          <folding>
+            <element signature="e#6742#6743#0" expanded="false" />
+            <element signature="e#6791#6792#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.7.RELEASE/spring-boot-autoconfigure-1.4.7.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="91" column="38" lean-forward="false" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog-api/myblog-api.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog-user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog-feign-user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-930">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding />
         </state>
       </provider>

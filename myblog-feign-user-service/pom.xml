@@ -7,7 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>myblog-feign-user-service</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>myblog-feign-user-service Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>

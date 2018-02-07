@@ -9,12 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="myblog-api" />
         <module name="myblog-config-server" />
-        <module name="myblog-dashboard" />
         <module name="myblog-eureka" />
         <module name="myblog-feign-user-service" />
-        <module name="myblog-manage" />
         <module name="myblog-user-service" />
-        <module name="myblog-web" />
         <module name="myblogs-common" />
       </profile>
     </annotationProcessing>
